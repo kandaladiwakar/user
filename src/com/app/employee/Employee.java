@@ -6,6 +6,7 @@ public class Employee implements Comparable{
 	private String empName;
 	private double empSal;
 	private String empDesignation;
+	private int id;
 	
 	public Employee(int empId, String empName, double empSal, String empDesignation) {
 		super();
